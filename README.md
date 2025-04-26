@@ -39,7 +39,7 @@ If no dataset match is found, the chatbot generates a Hinglish response using th
 Once the response is generated, it is read aloud using the pyttsx3 library.
 
 ## Note 
-Configure your **Groq API Key** for LLM responses in the code given below:
+Configure your **Groq API Key** for LLM responses in the code given below:/n
 llm = ChatGroq(
     temperature=0.2,
     groq_api_key="YOUR_GROQ_API_KEY",  # Replace with your Groq API key
