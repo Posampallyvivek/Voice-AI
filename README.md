@@ -60,3 +60,31 @@ groq_api_key="YOUR_GROQ_API_KEY"
 
 
 
+# 📄 Dataset Design
+Hinglish style (Hindi+English mix) needs natural, casual examples.
+
+10–20 samples ensure the fine-tune is fast and low-cost while showing clear behavior changes.
+
+# 🤖 Model Choice
+ChatGroq + LLaMA 3-70B is used because:
+
+Fast inference speeds ⚡
+
+Strong open-weight LLaMA models.
+
+Better cost efficiency compared to OpenAI.
+
+# 🎯 Hyperparameters 
+Temperature = 0.2 → Keep responses casual but controlled.
+
+Epochs = 2–3 (if adjustable) → To avoid overfitting on small dataset.
+
+Learning Rate = Default / Adaptive.
+
+# 🧩 Prompt Design
+Short, natural user queries as prompts.
+
+Friendly, Hinglish style responses without explaining meaning.
+
+Avoided formal or long instructions to maintain casual tone.
+
